@@ -1,19 +1,33 @@
-# Análise de dados de vendas da Olist
+# Análise de Vendas - Olist
 
-Uma análise exploratória de dados de vendas da Olist nos anos de 2017-2018
+Projeto de faculdade com análise exploratória dos dados da Olist. Foram utilizadas diversas bases de dados para entender o comportamento de consumidores, vendedores, categorias de produtos, formas de pagamento e volume de vendas.
 
-O notebook possui perguntas que foram respondidas por técnicas de análise de dados utilizando a linguagem Python, e diversas bibliotecas para manipulação e visualização dos dados.
+## 🔍 Principais análises
 
-Dados que estão no notebook respondendo algumas perguntas sobre negócio
+- Cidades e estados com mais consumidores
+- Formas de pagamento mais utilizadas
+- Categorias de produtos mais vendidas
+- Correlação entre peso, tamanho, preço e valor do frete
+- Datas com maior volume de pedidos (ex: período pré-Natal)
+- Cidades e estados com mais vendedores
 
-Dados dos consumidores
+## 📊 Bibliotecas utilizadas
 
-Dados de pagamentos
+- pandas  
+- numpy  
+- matplotlib  
+- seaborn  
 
-Dados sobre os produtos e frete
+## 💾 Bases de dados usadas
 
-Dados sobre os dias em que houveram mais vendas
+- `olist_customers_dataset.csv`
+- `olist_order_payments_dataset.csv`
+- `olist_order_items_dataset.csv`
+- `olist_products_dataset.csv`
+- `olist_orders_dataset.csv`
+- `olist_sellers_dataset.csv`
 
-Dados sobre os vendedores
+## 👨‍💻 Autor
 
-O dataset utilizado está disponível em: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+Felipe Miguel  
+[GitHub](https://github.com/fpmiguels) | [LinkedIn](https://www.linkedin.com/in/felipemiguel99/)
